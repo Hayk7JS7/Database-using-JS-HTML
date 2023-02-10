@@ -1,0 +1,33 @@
+body{
+    background: #000;
+    font-family: cursive;
+    color: white;
+}
+a{
+    color: unset;
+}
+
+/* header */
+.header-logo{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.header-parent{
+    display: flex;
+    flex: row wrap;
+    justify-content: space-around;
+}
+.header-child{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+.h2-header{
+    display: flex;
+    justify-content: center;
+}
+/* main */
+.main-h3{
+    text-align: center;
+}
